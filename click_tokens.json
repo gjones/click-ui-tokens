@@ -56,18 +56,137 @@
       "value": "{click-size-2}",
       "type": "borderRadius"
     },
-    "black alpha": {
-      "black": {
-        "value": "#000",
-        "type": "color"
-      },
-      "Black Alpha 100": {
-        "value": "rgba(0,0,0,0.1)",
-        "type": "color"
-      }
+    "Black Alpha 100": {
+      "value": "rgba(0,0,0,0.1)",
+      "type": "color"
+    },
+    "Black": {
+      "value": "#000",
+      "type": "color"
+    },
+    "White": {
+      "value": "#FFF",
+      "type": "color"
+    },
+    "White Alpha 100": {
+      "value": "rgba(255,255,255,0.1)",
+      "type": "color"
+    },
+    "White Alpha 200": {
+      "value": "rgba(255,255,255,0.2)",
+      "type": "color"
+    },
+    "White Alpha 400": {
+      "value": "rgba(255,255,255,0.4)",
+      "type": "color"
+    },
+    "Gray 50": {
+      "value": "#F6F7FA",
+      "type": "color"
+    },
+    "Gray 100": {
+      "value": "#E2E3E7",
+      "type": "color"
+    },
+    "Gray 200": {
+      "value": "#B0B4BC",
+      "type": "color"
+    },
+    "Gray 300": {
+      "value": "#6D7386",
+      "type": "color"
+    },
+    "Purple 50": {
+      "value": "#514B56",
+      "type": "color"
+    },
+    "Purple 100": {
+      "value": "#443f51",
+      "type": "color"
+    },
+    "Purple 200": {
+      "value": "#373343",
+      "type": "color"
+    },
+    "Purple 300": {
+      "value": "#3A313D",
+      "type": "color"
+    },
+    "Purple 400": {
+      "value": "#2F2C3A",
+      "type": "color"
+    },
+    "Purple 500": {
+      "value": "#18181B",
+      "type": "color"
+    },
+    "Green 50": {
+      "value": "#E7F9F4",
+      "type": "color"
+    },
+    "Green 100": {
+      "value": "#00664B",
+      "type": "color"
+    },
+    "Blue 50": {
+      "value": "#E6F1FA",
+      "type": "color"
+    },
+    "Blue 100": {
+      "value": "#428EFF",
+      "type": "color"
+    },
+    "Blue 200": {
+      "value": "#3B73DE",
+      "type": "color"
+    },
+    "Blue 300": {
+      "value": "#35508C",
+      "type": "color"
+    },
+    "Blue 400": {
+      "value": "#31426C",
+      "type": "color"
+    },
+    "Orange 50": {
+      "value": "#FFF8E6",
+      "type": "color"
+    },
+    "Orange 100": {
+      "value": "#FFB200",
+      "type": "color"
+    },
+    "Orange 200": {
+      "value": "#805300",
+      "type": "color"
+    },
+    "Red 50": {
+      "value": "#FFF8E6",
+      "type": "color"
+    },
+    "Red 100": {
+      "value": "#C70F0F",
+      "type": "color"
     }
   },
-  "$themes": [],
+  "$themes": [
+    {
+      "id": "56c57a2b18c055af58dbb49f260ae420194aa059",
+      "name": "light",
+      "selectedTokenSets": {
+        "global": "enabled"
+      },
+      "$figmaStyleReferences": {}
+    },
+    {
+      "id": "24e650aee7d9e6e3ac723b7199f89bcf419f1f78",
+      "name": "dark",
+      "selectedTokenSets": {
+        "global": "enabled"
+      },
+      "$figmaStyleReferences": {}
+    }
+  ],
   "$metadata": {
     "tokenSetOrder": [
       "global"
