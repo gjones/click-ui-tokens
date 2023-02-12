@@ -455,27 +455,149 @@
       "type": "typography"
     }
   },
-  "$themes": [
-    {
-      "id": "56c57a2b18c055af58dbb49f260ae420194aa059",
-      "name": "light",
-      "selectedTokenSets": {
-        "global": "enabled"
+  "light": {
+    "Base": {
+      "click-color-background": {
+        "value": "{White}",
+        "type": "color"
       },
-      "$figmaStyleReferences": {}
+      "click-color-background-muted": {
+        "value": "{Gray 50}",
+        "type": "color"
+      },
+      "click-color-text": {
+        "value": "{Purple 400}",
+        "type": "color"
+      },
+      "click-color-text-muted": {
+        "value": "{Gray 300}",
+        "type": "color"
+      },
+      "click-color-stroke": {
+        "value": "{Gray 100}",
+        "type": "color"
+      },
+      "click-color-link": {
+        "value": "{Blue 200}",
+        "type": "color"
+      },
+      "click-color-link-active": {
+        "value": "{Blue 300}",
+        "type": "color"
+      },
+      "click-color-accent": {
+        "value": "{Orange 100}",
+        "type": "color"
+      }
     },
+    "Sidebar": {
+      "click-color-sidebar-background": {
+        "value": "{Base.click-color-background}",
+        "type": "color"
+      },
+      "click-color-sidebar-text": {
+        "value": "{Base.click-color-text}",
+        "type": "color"
+      },
+      "click-color-sidebar-text-muted": {
+        "value": "{Base.click-color-text-muted}",
+        "type": "color"
+      },
+      "click-color-sidebar-item-active": {
+        "value": "{Base.click-color-background-muted}",
+        "type": "color"
+      },
+      "click-color-sidebar-stroke": {
+        "value": "{Base.click-color-stroke}",
+        "type": "color"
+      }
+    }
+  },
+  "dark": {
+    "Base": {
+      "click-color-background": {
+        "value": "{Purple 400}",
+        "type": "color"
+      },
+      "click-color-background-muted": {
+        "value": "{Purple 300}",
+        "type": "color"
+      },
+      "click-color-text": {
+        "value": "{White}",
+        "type": "color"
+      },
+      "click-color-text-muted": {
+        "value": "{Gray 100}",
+        "type": "color"
+      },
+      "click-color-stroke": {
+        "value": "{Purple 50}",
+        "type": "color"
+      },
+      "click-color-link": {
+        "value": "{Blue 100}",
+        "type": "color"
+      },
+      "click-color-link-active": {
+        "value": "{Blue 200}",
+        "type": "color"
+      },
+      "click-color-accent": {
+        "value": "{Orange 100}",
+        "type": "color"
+      }
+    },
+    "Sidebar": {
+      "click-color-sidebar-background": {
+        "value": "{Base.click-color-background}",
+        "type": "color"
+      },
+      "click-color-sidebar-text": {
+        "value": "{Base.click-color-text}",
+        "type": "color"
+      },
+      "click-color-sidebar-text-muted": {
+        "value": "{Base.click-color-text-muted}",
+        "type": "color"
+      },
+      "click-color-sidebar-item-active": {
+        "value": "{Base.click-color-background-muted}",
+        "type": "color"
+      },
+      "click-color-sidebar-stroke": {
+        "value": "{Base.click-color-stroke}",
+        "type": "color"
+      }
+    }
+  },
+  "$themes": [
     {
       "id": "24e650aee7d9e6e3ac723b7199f89bcf419f1f78",
       "name": "dark",
       "selectedTokenSets": {
-        "global": "enabled"
+        "global": "enabled",
+        "light": "disabled",
+        "dark": "disabled"
+      },
+      "$figmaStyleReferences": {}
+    },
+    {
+      "id": "56c57a2b18c055af58dbb49f260ae420194aa059",
+      "name": "light",
+      "selectedTokenSets": {
+        "global": "source",
+        "light": "disabled",
+        "dark": "disabled"
       },
       "$figmaStyleReferences": {}
     }
   ],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "global",
+      "light",
+      "dark"
     ]
   }
 }
