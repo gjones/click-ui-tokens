@@ -55,6 +55,16 @@
     "click-radii-2": {
       "value": "{click-size-2}",
       "type": "borderRadius"
+    },
+    "black alpha": {
+      "black": {
+        "value": "#000",
+        "type": "color"
+      },
+      "Black Alpha 100": {
+        "value": "rgba(0,0,0,0.1)",
+        "type": "color"
+      }
     }
   },
   "$themes": [],
