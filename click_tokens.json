@@ -1,5 +1,62 @@
 {
-  "global": {},
+  "global": {
+    "click-size-0": {
+      "value": "0px",
+      "type": "sizing"
+    },
+    "click-size-1": {
+      "value": "4px",
+      "type": "sizing"
+    },
+    "click-size-2": {
+      "value": "8px",
+      "type": "sizing"
+    },
+    "click-size-3": {
+      "value": "12px",
+      "type": "sizing"
+    },
+    "click-size-4": {
+      "value": "16px",
+      "type": "sizing"
+    },
+    "click-size-5": {
+      "value": "20px",
+      "type": "sizing"
+    },
+    "click-size-6": {
+      "value": "24px",
+      "type": "sizing"
+    },
+    "click-size-7": {
+      "value": "28px",
+      "type": "sizing"
+    },
+    "click-size-8": {
+      "value": "32px",
+      "type": "sizing"
+    },
+    "click-size-9": {
+      "value": "40px",
+      "type": "sizing"
+    },
+    "click-size-10": {
+      "value": "64px",
+      "type": "sizing"
+    },
+    "click-radii-0": {
+      "value": "{click-size-0}",
+      "type": "borderRadius"
+    },
+    "click-radii-1": {
+      "value": "{click-size-1}",
+      "type": "borderRadius"
+    },
+    "click-radii-2": {
+      "value": "{click-size-2}",
+      "type": "borderRadius"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
