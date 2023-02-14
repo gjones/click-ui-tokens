@@ -571,12 +571,25 @@
       }
     }
   },
+  "mixed": {
+    "Sidebar": {
+      "click-color-sidebar-background": {
+        "value": "{Purple 400}",
+        "type": "color"
+      },
+      "click-color-sidebar-text": {
+        "value": "{White}",
+        "type": "color"
+      }
+    }
+  },
   "$themes": [
     {
       "id": "24e650aee7d9e6e3ac723b7199f89bcf419f1f78",
       "name": "dark",
       "selectedTokenSets": {
-        "global": "enabled"
+        "global": "enabled",
+        "mixed": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -584,7 +597,8 @@
       "id": "56c57a2b18c055af58dbb49f260ae420194aa059",
       "name": "light",
       "selectedTokenSets": {
-        "global": "source"
+        "global": "source",
+        "mixed": "disabled"
       },
       "$figmaStyleReferences": {}
     }
@@ -593,7 +607,8 @@
     "tokenSetOrder": [
       "global",
       "light",
-      "dark"
+      "dark",
+      "mixed"
     ]
   }
 }
