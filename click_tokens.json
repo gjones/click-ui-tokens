@@ -562,7 +562,7 @@
         "type": "color"
       },
       "click-color-sidebar-item-active": {
-        "value": "{Base.click-color-background-muted}",
+        "value": "{White Alpha 100}",
         "type": "color"
       },
       "click-color-sidebar-stroke": {
@@ -576,9 +576,7 @@
       "id": "24e650aee7d9e6e3ac723b7199f89bcf419f1f78",
       "name": "dark",
       "selectedTokenSets": {
-        "global": "enabled",
-        "light": "disabled",
-        "dark": "disabled"
+        "global": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -586,9 +584,7 @@
       "id": "56c57a2b18c055af58dbb49f260ae420194aa059",
       "name": "light",
       "selectedTokenSets": {
-        "global": "source",
-        "light": "disabled",
-        "dark": "disabled"
+        "global": "source"
       },
       "$figmaStyleReferences": {}
     }
