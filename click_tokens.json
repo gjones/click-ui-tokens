@@ -580,6 +580,18 @@
       "click-color-sidebar-text": {
         "value": "{White}",
         "type": "color"
+      },
+      "click-color-sidebar-text-muted": {
+        "value": "{Gray 50}",
+        "type": "color"
+      },
+      "click-color-sidebar-item-active": {
+        "value": "{White Alpha 100}",
+        "type": "color"
+      },
+      "click-color-sidebar-stroke": {
+        "value": "{Purple 50}",
+        "type": "color"
       }
     }
   },
@@ -588,8 +600,7 @@
       "id": "24e650aee7d9e6e3ac723b7199f89bcf419f1f78",
       "name": "dark",
       "selectedTokenSets": {
-        "global": "enabled",
-        "mixed": "disabled"
+        "global": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -597,8 +608,7 @@
       "id": "56c57a2b18c055af58dbb49f260ae420194aa059",
       "name": "light",
       "selectedTokenSets": {
-        "global": "source",
-        "mixed": "disabled"
+        "global": "source"
       },
       "$figmaStyleReferences": {}
     }
