@@ -511,6 +511,40 @@
         "value": "{Base.click-color-stroke}",
         "type": "color"
       }
+    },
+    "Buttons": {
+      "click-color-primary-button-background": {
+        "value": "{Purple 400}",
+        "type": "color"
+      },
+      "click-color-primary-button-text": {
+        "value": "{White}",
+        "type": "color"
+      },
+      "click-color-primary-button-background-active": {
+        "value": "{Purple 500}",
+        "type": "color"
+      },
+      "click-color-secondary-button-text": {
+        "value": "{Purple 400}",
+        "type": "color"
+      },
+      "click-color-secondary-button-stroke": {
+        "value": "{Base.click-color-stroke}",
+        "type": "color"
+      },
+      "click-color-secondary-button-background-active": {
+        "value": "{Base.click-color-background-muted}",
+        "type": "color"
+      },
+      "click-color-button-background-disabled": {
+        "value": "{Gray 100}",
+        "type": "color"
+      },
+      "click-color-button-text-disabled": {
+        "value": "{Gray 200}",
+        "type": "color"
+      }
     }
   },
   "dark": {
@@ -567,6 +601,40 @@
       },
       "click-color-sidebar-stroke": {
         "value": "{Base.click-color-stroke}",
+        "type": "color"
+      }
+    },
+    "Buttons": {
+      "click-color-primary-button-background": {
+        "value": "{White Alpha 100}",
+        "type": "color"
+      },
+      "click-color-primary-button-text": {
+        "value": "{Purple 400}",
+        "type": "color"
+      },
+      "click-color-primary-button-background-active": {
+        "value": "{White}",
+        "type": "color"
+      },
+      "click-color-secondary-button-text": {
+        "value": "{White}",
+        "type": "color"
+      },
+      "click-color-secondary-button-stroke": {
+        "value": "{Base.click-color-stroke}",
+        "type": "color"
+      },
+      "click-color-secondary-button-background-active": {
+        "value": "{Purple 300}",
+        "type": "color"
+      },
+      "click-color-button-background-disabled": {
+        "value": "{Gray 100}",
+        "type": "color"
+      },
+      "click-color-button-text-disabled": {
+        "value": "{Gray 200}",
         "type": "color"
       }
     }
