@@ -660,7 +660,7 @@
         "type": "color"
       },
       "click-color-primary-button-text": {
-        "value": "{Purple 400}",
+        "value": "{White}",
         "type": "color"
       },
       "click-color-primary-button-background-active": {
@@ -698,7 +698,7 @@
     },
     "Field": {
       "click-color-field-background": {
-        "value": "{Purple 400}",
+        "value": "{Purple 200}",
         "type": "color"
       },
       "click-color-field-text": {
