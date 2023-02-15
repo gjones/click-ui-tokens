@@ -545,6 +545,14 @@
         "value": "{Gray 200}",
         "type": "color"
       }
+    },
+    "click-border-1": {
+      "value": {
+        "color": "{Base.click-color-stroke}",
+        "width": "{click-borderWidth-1}",
+        "style": "solid"
+      },
+      "type": "border"
     }
   },
   "dark": {
@@ -637,6 +645,14 @@
         "value": "{Gray 200}",
         "type": "color"
       }
+    },
+    "click-border-1": {
+      "value": {
+        "color": "{Base.click-color-stroke}",
+        "width": "{click-borderWidth-1}",
+        "style": "solid"
+      },
+      "type": "border"
     }
   },
   "mixed": {
