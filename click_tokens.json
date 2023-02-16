@@ -599,6 +599,40 @@
         "value": "{Buttons.click-color-button-text-disabled}",
         "type": "color"
       }
+    },
+    "State": {
+      "click-color-success-background": {
+        "value": "{Green 50}",
+        "type": "color"
+      },
+      "click-color-success-text": {
+        "value": "{Green 100}",
+        "type": "color"
+      },
+      "click-color-info-background": {
+        "value": "{Blue 50}",
+        "type": "color"
+      },
+      "click-color-info-text": {
+        "value": "{Blue 400}",
+        "type": "color"
+      },
+      "click-color-warning-background": {
+        "value": "{Orange 50}",
+        "type": "color"
+      },
+      "click-color-warning-text": {
+        "value": "{Orange 100}",
+        "type": "color"
+      },
+      "click-color-danger-background": {
+        "value": "{Red 50}",
+        "type": "color"
+      },
+      "click-color-danger-text": {
+        "value": "{Red 100}",
+        "type": "color"
+      }
     }
   },
   "dark": {
@@ -735,6 +769,40 @@
       },
       "click-color-field-text-disabled": {
         "value": "{Buttons.click-color-button-text-disabled}",
+        "type": "color"
+      }
+    },
+    "State": {
+      "click-color-success-background": {
+        "value": "{Green 50}",
+        "type": "color"
+      },
+      "click-color-success-text": {
+        "value": "{Green 100}",
+        "type": "color"
+      },
+      "click-color-info-background": {
+        "value": "{Blue 50}",
+        "type": "color"
+      },
+      "click-color-info-text": {
+        "value": "{Blue 400}",
+        "type": "color"
+      },
+      "click-color-warning-background": {
+        "value": "{Orange 50}",
+        "type": "color"
+      },
+      "click-color-warning-text": {
+        "value": "{Orange 100}",
+        "type": "color"
+      },
+      "click-color-danger-background": {
+        "value": "{Red 50}",
+        "type": "color"
+      },
+      "click-color-danger-text": {
+        "value": "{Red 100}",
         "type": "color"
       }
     }
