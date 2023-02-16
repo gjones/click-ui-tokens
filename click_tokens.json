@@ -457,6 +457,10 @@
         "fontSize": "{click-fontSize-1}"
       },
       "type": "typography"
+    },
+    "click-radii-full": {
+      "value": "9999px",
+      "type": "borderRadius"
     }
   },
   "light": {
