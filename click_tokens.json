@@ -461,6 +461,14 @@
     "click-radii-full": {
       "value": "9999px",
       "type": "borderRadius"
+    },
+    "Brand Black": {
+      "value": "#161600",
+      "type": "color"
+    },
+    "Brand Yellow": {
+      "value": "#FBFF46",
+      "type": "color"
     }
   },
   "light": {
