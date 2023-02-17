@@ -641,6 +641,32 @@
         "value": "{Red 100}",
         "type": "color"
       }
+    },
+    "Table": {
+      "click-color-table-header-background": {
+        "value": "{Base.click-color-background-muted}",
+        "type": "color"
+      },
+      "click-color-table-header-text": {
+        "value": "{Base.click-color-text}",
+        "type": "color"
+      },
+      "click-color-table-body-text": {
+        "value": "{Base.click-color-text}",
+        "type": "color"
+      },
+      "click-color-table-body-link": {
+        "value": "{Base.click-color-link}",
+        "type": "color"
+      },
+      "click-color-table-body-glyph": {
+        "value": "{Base.click-color-text-muted}",
+        "type": "color"
+      },
+      "click-color-table-body-glyph-hover": {
+        "value": "{Base.click-color-text}",
+        "type": "color"
+      }
     }
   },
   "dark": {
