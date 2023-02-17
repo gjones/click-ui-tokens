@@ -97,7 +97,7 @@
       "type": "color"
     },
     "Gray 300": {
-      "value": "#6D7386",
+      "value": "#6A6F81",
       "type": "color"
     },
     "Purple 50": {
@@ -650,7 +650,7 @@
         "type": "color"
       },
       "click-color-background-muted": {
-        "value": "{Purple 300}",
+        "value": "{White Alpha 100}",
         "type": "color"
       },
       "click-color-text": {
