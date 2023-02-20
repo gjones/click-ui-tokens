@@ -1,6 +1,6 @@
 {
   "global": {
-    "Color": {
+    "color": {
       "palette": {
         "brand": {
           "50": {
@@ -87,7 +87,7 @@
           }
         },
         "slate": {
-          "0": {
+          "50": {
             "value": "#f6f7fa",
             "type": "color"
           },
@@ -365,10 +365,104 @@
       }
     }
   },
+  "light": {
+    "click": {
+      "global": {
+        "color": {
+          "background": {
+            "default": {
+              "value": "{color.palette.neutral.0}",
+              "type": "color"
+            },
+            "muted": {
+              "value": "{color.palette.slate.50}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{color.palette.slate.900}",
+              "type": "color"
+            },
+            "muted": {
+              "value": "{color.palette.slate.600}",
+              "type": "color"
+            },
+            "link": {
+              "default": {
+                "value": "{color.palette.info.400}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.palette.info.500}",
+                "type": "color"
+              }
+            }
+          },
+          "stroke": {
+            "value": "{color.palette.slate.100}",
+            "type": "color"
+          },
+          "accent": {
+            "value": "{color.palette.warning.400}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "dark": {
+    "click": {
+      "global": {
+        "color": {
+          "background": {
+            "default": {
+              "value": "{color.palette.slate.900}",
+              "type": "color"
+            },
+            "muted": {
+              "value": "{color.palette.slate.800}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{color.palette.neutral.0}",
+              "type": "color"
+            },
+            "muted": {
+              "value": "{color.palette.slate.200}",
+              "type": "color"
+            },
+            "link": {
+              "default": {
+                "value": "{color.palette.info.200}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.palette.info.300}",
+                "type": "color"
+              }
+            }
+          },
+          "stroke": {
+            "value": "{color.palette.slate.700}",
+            "type": "color"
+          },
+          "accent": {
+            "value": "{color.palette.warning.300}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "global",
+      "light",
+      "dark"
     ]
   }
 }
