@@ -1075,6 +1075,46 @@
             }
           }
         }
+      },
+      "sidebar": {
+        "background": {
+          "default": {
+            "value": "{click.global.color.background.default}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{click.field.color.text.default}",
+            "type": "color"
+          },
+          "muted": {
+            "value": "{click.global.color.text.muted}",
+            "type": "color"
+          }
+        },
+        "item": {
+          "background": {
+            "default": {
+              "value": "{click.global.color.background.default}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{click.global.color.background.muted}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{click.global.color.text.default}",
+              "type": "color"
+            }
+          }
+        },
+        "stroke": {
+          "value": "{click.field.color.stroke.default}",
+          "type": "color"
+        }
       }
     }
   },
@@ -1084,7 +1124,7 @@
         "color": {
           "background": {
             "default": {
-              "value": "{color.palette.slate.900}",
+              "value": "{color.palette.brand.700}",
               "type": "color"
             },
             "muted": {
@@ -1113,7 +1153,7 @@
             }
           },
           "stroke": {
-            "value": "{color.palette.slate.700}",
+            "value": "{color.palette.slate.800}",
             "type": "color"
           },
           "accent": {
@@ -1366,12 +1406,57 @@
       }
     }
   },
+  "classic": {
+    "click": {
+      "sidebar": {
+        "background": {
+          "default": {
+            "value": "{color.palette.indigo.base}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{click.global.color.background.default}",
+            "type": "color"
+          },
+          "muted": {
+            "value": "{click.global.color.text.muted}",
+            "type": "color"
+          }
+        },
+        "item": {
+          "background": {
+            "default": {
+              "value": "{color.palette.indigo.base}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{color.palette.indigo.700}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{click.global.color.background.default}",
+              "type": "color"
+            }
+          }
+        },
+        "stroke": {
+          "value": "{color.palette.slate.700}",
+          "type": "color"
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "global",
       "light",
-      "dark"
+      "dark",
+      "classic"
     ]
   }
 }
