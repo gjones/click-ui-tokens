@@ -743,6 +743,50 @@
           "value": "{click.sizes.10}",
           "type": "spacing"
         }
+      },
+      "shadow": {
+        "1": {
+          "value": [
+            {
+              "x": "0",
+              "y": "1",
+              "blur": "2",
+              "spread": "0",
+              "color": "rgba(16, 24, 40, 0.06)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "1",
+              "blur": "3",
+              "spread": "0",
+              "color": "rgba(16, 24, 40, 0.1)",
+              "type": "dropShadow"
+            }
+          ],
+          "type": "boxShadow"
+        },
+        "2": {
+          "value": [
+            {
+              "x": "0",
+              "y": "4",
+              "blur": "4",
+              "spread": "0",
+              "color": "rgba(88, 92, 98, 0.06)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "5",
+              "y": "0",
+              "blur": "10",
+              "spread": "0",
+              "color": "rgba(104, 105, 111, 0.1)",
+              "type": "innerShadow"
+            }
+          ],
+          "type": "boxShadow"
+        }
       }
     }
   },
@@ -890,7 +934,7 @@
               "type": "color"
             },
             "disabled": {
-              "value": "{color.palette.neutral.300}",
+              "value": "{color.palette.neutral.200}",
               "type": "color"
             }
           },
@@ -904,7 +948,7 @@
               "type": "color"
             },
             "disabled": {
-              "value": "{color.palette.neutral.600}",
+              "value": "{color.palette.neutral.400}",
               "type": "color"
             }
           },
@@ -918,8 +962,116 @@
               "type": "color"
             },
             "disabled": {
-              "value": "{color.palette.neutral.300}",
+              "value": "{color.palette.neutral.200}",
               "type": "color"
+            }
+          },
+          "label": {
+            "default": {
+              "value": "{click.global.color.text.muted}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{click.global.color.text.default}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{color.palette.neutral.400}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "button": {
+        "color": {
+          "primary": {
+            "background": {
+              "default": {
+                "value": "{color.palette.slate.base}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.palette.slate.900}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{click.button.color.primary.background.hover}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "default": {
+                "value": "{click.global.color.background.default}",
+                "type": "color"
+              }
+            }
+          },
+          "secondary": {
+            "background": {
+              "default": {
+                "value": "{click.global.color.background.default}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.palette.slate.50}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{color.palette.slate.200}",
+                "type": "color"
+              }
+            },
+            "stroke": {
+              "default": {
+                "value": "{click.global.color.stroke}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.palette.slate.500}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "default": {
+                "value": "{click.global.color.text.default}",
+                "type": "color"
+              }
+            }
+          },
+          "disabled": {
+            "background": {
+              "default": {
+                "value": "{click.field.color.background.disabled}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "default": {
+                "value": "{click.field.color.text.disabled}",
+                "type": "color"
+              }
+            }
+          },
+          "danger": {
+            "background": {
+              "default": {
+                "value": "{click.feedback.color.danger.background}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.palette.danger.100}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{click.button.color.danger.background.hover}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "default": {
+                "value": "{click.feedback.color.danger.text}",
+                "type": "color"
+              }
             }
           }
         }
@@ -1100,6 +1252,114 @@
             "disabled": {
               "value": "{color.palette.neutral.700}",
               "type": "color"
+            }
+          },
+          "label": {
+            "default": {
+              "value": "{click.global.color.text.muted}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{click.global.color.text.default}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{color.palette.neutral.400}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "button": {
+        "color": {
+          "primary": {
+            "background": {
+              "default": {
+                "value": "{click.global.color.accent}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.palette.brand.300}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{click.button.color.primary.background.hover}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "default": {
+                "value": "{click.global.color.background.default}",
+                "type": "color"
+              }
+            }
+          },
+          "secondary": {
+            "background": {
+              "default": {
+                "value": "{click.global.color.background.default}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{click.global.color.background.muted}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{click.button.color.secondary.background.hover}",
+                "type": "color"
+              }
+            },
+            "stroke": {
+              "default": {
+                "value": "{click.global.color.stroke}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.palette.slate.500}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "default": {
+                "value": "{click.global.color.text.default}",
+                "type": "color"
+              }
+            }
+          },
+          "disabled": {
+            "background": {
+              "default": {
+                "value": "{click.field.color.background.disabled}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "default": {
+                "value": "{click.field.color.text.disabled}",
+                "type": "color"
+              }
+            }
+          },
+          "danger": {
+            "background": {
+              "default": {
+                "value": "{click.feedback.color.danger.background}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{color.palette.danger.700}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{click.button.color.danger.background.hover}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "default": {
+                "value": "{click.feedback.color.danger.text}",
+                "type": "color"
+              }
             }
           }
         }
