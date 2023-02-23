@@ -32,6 +32,10 @@
             "type": "color"
           },
           "700": {
+            "value": "#282900",
+            "type": "color"
+          },
+          "800": {
             "value": "#161600",
             "type": "color"
           },
@@ -1124,7 +1128,7 @@
         "color": {
           "background": {
             "default": {
-              "value": "{color.palette.brand.700}",
+              "value": "{color.palette.brand.800}",
               "type": "color"
             },
             "muted": {
@@ -1153,7 +1157,7 @@
             }
           },
           "stroke": {
-            "value": "{color.palette.slate.800}",
+            "value": "{color.palette.brand.700}",
             "type": "color"
           },
           "accent": {
