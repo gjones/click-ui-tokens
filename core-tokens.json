@@ -365,6 +365,12 @@
             "value": "#FF5353",
             "type": "color"
           }
+        },
+        "gradients": {
+          "base": {
+            "value": "linear-gradient(229.65deg, #292924 15.78%, #0F0F0F 88.39%)",
+            "type": "color"
+          }
         }
       }
     },
