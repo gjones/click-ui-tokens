@@ -77,6 +77,14 @@
             "value": "#414141",
             "type": "color"
           },
+          "725": {
+            "value": "#282828",
+            "type": "color"
+          },
+          "750": {
+            "value": "#1F1F1C",
+            "type": "color"
+          },
           "800": {
             "value": "#1d1d1d",
             "type": "color"
@@ -1089,7 +1097,7 @@
       "sidebar": {
         "background": {
           "default": {
-            "value": "{click.global.color.background.default}",
+            "value": "rgba(0,0,0,0)",
             "type": "color"
           }
         },
@@ -1106,11 +1114,11 @@
         "item": {
           "background": {
             "default": {
-              "value": "{click.global.color.background.default}",
+              "value": "rgba(0,0,0,0)",
               "type": "color"
             },
             "active": {
-              "value": "{click.global.color.background.muted}",
+              "value": "{color.palette.neutral.700}",
               "type": "color"
             }
           },
@@ -1160,11 +1168,11 @@
         "color": {
           "background": {
             "default": {
-              "value": "{color.palette.brand.800}",
+              "value": "{color.palette.neutral.750}",
               "type": "color"
             },
             "muted": {
-              "value": "{color.palette.slate.800}",
+              "value": "{color.palette.neutral.800}",
               "type": "color"
             }
           },
@@ -1179,21 +1187,21 @@
             },
             "link": {
               "default": {
-                "value": "{color.palette.brand.base}",
+                "value": "{color.palette.brand.300}",
                 "type": "color"
               },
               "hover": {
-                "value": "{color.palette.brand.500}",
+                "value": "{color.palette.brand.100}",
                 "type": "color"
               }
             }
           },
           "stroke": {
-            "value": "{color.palette.brand.700}",
+            "value": "{color.palette.neutral.725}",
             "type": "color"
           },
           "accent": {
-            "value": "{color.palette.brand.base}",
+            "value": "{color.palette.brand.300}",
             "type": "color"
           }
         }
