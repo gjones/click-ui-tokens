@@ -896,7 +896,7 @@
           },
           "neutral": {
             "background": {
-              "value": "{click.global.color.background.default}",
+              "value": "{color.palette.neutral.200}",
               "type": "color"
             },
             "text": {
