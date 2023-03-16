@@ -1514,6 +1514,12 @@
           "type": "color"
         }
       }
+    },
+    "opacity": {
+      "10": {
+        "value": "0.1",
+        "type": "opacity"
+      }
     }
   },
   "classic": {
