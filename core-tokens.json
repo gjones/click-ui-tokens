@@ -1250,11 +1250,11 @@
           },
           "neutral": {
             "background": {
-              "value": "{click.table.color.header.background}",
+              "value": "{color.palette.neutral.700}",
               "type": "color"
             },
             "text": {
-              "value": "{color.palette.neutral.700}",
+              "value": "{color.palette.neutral.300}",
               "type": "color"
             },
             "stroke": {
