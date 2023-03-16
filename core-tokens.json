@@ -1092,6 +1092,48 @@
               }
             }
           }
+        },
+        "group": {
+          "color": {
+            "background": {
+              "default": {
+                "value": "{click.global.color.background.muted}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{click.global.color.background.default}",
+                "type": "color"
+              },
+              "selected": {
+                "value": "{click.button.color.primary.background.default}",
+                "type": "color"
+              },
+              "panel": {
+                "value": "{click.global.color.background.muted}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "default": {
+                "value": "{click.global.color.text.default}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{click.global.color.text.default}",
+                "type": "color"
+              },
+              "selected": {
+                "value": "{click.button.color.primary.text.default}",
+                "type": "color"
+              }
+            },
+            "stroke": {
+              "panel": {
+                "value": "{click.global.color.stroke}",
+                "type": "color"
+              }
+            }
+          }
         }
       },
       "sidebar": {
