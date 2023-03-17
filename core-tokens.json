@@ -1216,6 +1216,52 @@
             }
           }
         }
+      },
+      "tabs": {
+        "color": {
+          "background": {
+            "default": {
+              "value": "{click.global.color.background.default}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{click.global.color.background.muted}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{click.global.color.background.default}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{click.global.color.text.muted}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{click.global.color.text.default}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{click.global.color.text.default}",
+              "type": "color"
+            }
+          },
+          "accent": {
+            "default": {
+              "value": "rgba(0,0,0,0)",
+              "type": "color"
+            },
+            "hover": {
+              "value": "rgba(0,0,0,0)",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{click.global.color.accent}",
+              "type": "color"
+            }
+          }
+        }
       }
     }
   },
