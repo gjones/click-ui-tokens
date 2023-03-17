@@ -443,6 +443,10 @@
             "1": {
               "value": "150%",
               "type": "lineHeights"
+            },
+            "2": {
+              "value": "160%",
+              "type": "lineHeights"
             }
           }
         },
@@ -643,6 +647,17 @@
               "fontWeight": "{click.type.font.weights.3}",
               "lineHeight": "{click.type.font.lineHeights.1}",
               "fontSize": "72px"
+            },
+            "type": "typography"
+          }
+        },
+        "field": {
+          "md": {
+            "value": {
+              "fontFamily": "{click.type.font.families.regular}",
+              "fontWeight": "{click.type.font.weights.2}",
+              "lineHeight": "{click.type.font.lineHeights.2}",
+              "fontSize": "{click.type.font.sizes.2}"
             },
             "type": "typography"
           }
