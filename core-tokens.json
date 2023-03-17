@@ -655,7 +655,7 @@
           "md": {
             "value": {
               "fontFamily": "{click.type.font.families.regular}",
-              "fontWeight": "{click.type.font.weights.2}",
+              "fontWeight": "{click.type.font.weights.1}",
               "lineHeight": "{click.type.font.lineHeights.2}",
               "fontSize": "{click.type.font.sizes.2}"
             },
